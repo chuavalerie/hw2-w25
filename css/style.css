@@ -61,10 +61,10 @@ div {
     background-color: blue;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px;
-    border-top: 2px;
-    border-bottom: 0px;
-    border-left: 0px;
+    border-right-width: 5px;
+    border-top-width: 2px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
     color: #C4C4C4;
 }
 
@@ -76,9 +76,11 @@ div {
     background-color: yellow;
     text-align: right;
     margin-left: 50px;
-    /* border-bottom: 2px;
-    border-left: 5px; */
-    border: 0px 0px 2px 5px;
+    border-bottom-width: 2px;
+    border-left-width: 5px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    /* border: 0px 0px 2px 5px; */
     color: #707070;
 }
 
@@ -86,10 +88,10 @@ div {
     background-color: #008500;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px;
-    border-top: 2px;
-    border-left: 0px;
-    border-bottom: 0px;
+    border-top-width: 2px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
+    border-right-width: 5px;
 }
 
 footer {
